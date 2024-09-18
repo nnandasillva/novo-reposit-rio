@@ -35,7 +35,7 @@ export default class App extends React.Component {
 
   pegarDados = async () => {
     const { latitude, longitude } = this.state.location.coords;
-    const link = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&APPID=143454aa39bbe3442a890cdbf3f9db36`;
+    const link = ``;
 
    return await fetch(link)
   .then((resposta) => resposta.json())
