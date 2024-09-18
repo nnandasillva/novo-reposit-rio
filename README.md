@@ -47,7 +47,7 @@ export default class App extends React.Component {
 
 pegarHora = async () => {
   const {time} = this.state.location.coords;
-  var link = `http://worldtimeapi.org/api/timezone/Etc/UTC`;
+  var link = ``;
 
   return await fetch(link)
   .then((resposta) => resposta.json())
