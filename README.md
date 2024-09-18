@@ -1,4 +1,4 @@
-
+//Alteração blablabla
 import React from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 import * as Location from 'expo-location';
